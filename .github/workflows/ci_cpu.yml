@@ -166,5 +166,5 @@ jobs:
       - name: Finish Coveralls Parallel
         uses: coverallsapp/github-action@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ github.token }}
           parallel-finished: true
